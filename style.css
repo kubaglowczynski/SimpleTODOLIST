@@ -52,6 +52,7 @@ body{
     cursor: pointer;
 }
 #tasks{
+    opacity: 0;
     width: 100%;
     position: relative;
     margin-top: 40px;

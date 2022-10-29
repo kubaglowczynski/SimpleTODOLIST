@@ -48,7 +48,15 @@
                 }
                 document.querySelector('#newtask input').
                 value = "";
-            }
+
+                var opacity = "1.0";
+                var el = document.getElementById("tasks");
+                if (el.style.opacity !== undefined) {
+                    el.style.opacity = opacity;
+                } else {
+                    alert("Your browser doesn't support this example!");
+                }
+                            }
         }
     </script>
 </body>
